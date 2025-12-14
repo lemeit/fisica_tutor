@@ -91,9 +91,9 @@ $$
 
 ---
 
-## 2. Cinemática
+## 3. Cinemática
 
-### 2.1 Sistemas de Referencia: Posición, Velocidad y Aceleración
+### 3.1 Sistemas de Referencia: Posición, Velocidad y Aceleración
 
 Para estudiar el movimiento de una partícula (cuerpo cuyas dimensiones son despreciables frente al tamaño de su trayectoria) nos hace falta un sistema de referencia, que normalmente tomamos como un sistema de ejes coordenados cartesianos ortogonales $XYZ$ para determinar el **vector posición** $\vec{r}(t) = (x(t), y(t), z(t))$ en el tiempo $t$, el cual determinamos con un reloj. La sucesión de puntos que ocupa en el espacio la partícula es su trayectoria.
 
@@ -159,7 +159,7 @@ Y la aceleración estará relacionada con la concavidad de la curva $x(t)$.
 
 Notemos que las unidades de aceleración son $[\vec{a}(t)] = \frac{\text{m}}{\text{seg}^2}$, $\frac{\text{cm}}{\text{seg}^2}$, $\frac{\text{km}}{\text{h}\cdot\text{seg}}$.
 
-### 2.2 Movimiento Rectilíneo Uniforme y Uniformemente Acelerado
+### 3.2 Movimiento Rectilíneo Uniforme y Uniformemente Acelerado
 
 #### Movimiento Rectilíneo Uniforme (MRU)
 
@@ -183,8 +183,6 @@ x(t) = x_0 + v_0 t
 \end{cases}
 $$
 
-[Gráficas correspondientes son (aquí irían las imágenes)]
-
 #### Movimiento Rectilíneo Uniformemente Acelerado (MRUA)
 
 Cuando $a(t) = a(0) = a_0$ (constante en el tiempo), estamos en presencia de un **movimiento rectilíneo uniformemente acelerado (MRUA)**. Si volvemos a integrar en el tiempo, tendremos para el MRUA:
@@ -196,5 +194,3 @@ v(t) = v_0 + a_0 t \\
 x(t) = x_0 + v_0 t + \frac{1}{2} a_0 t^2
 \end{cases}
 $$
-
-[Gráficas correspondientes son (aquí irían las imágenes)]
