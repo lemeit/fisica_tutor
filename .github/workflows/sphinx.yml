@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:
 
-  permissions:  # <-- Agregue este bloque AQUÍ
+permissions:  # <-- Agregue este bloque AQUÍ
   contents: write
   pages: write
   id-token: write
