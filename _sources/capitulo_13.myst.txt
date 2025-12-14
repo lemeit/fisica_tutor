@@ -1,0 +1,24 @@
+(capitulo_13)=
+# Capítulo 13: Gravitación Universal
+
+*Parte: Mecánica*
+*Fecha: 2025-12-12*
+
+## 1. Guía Teórica y Conceptos Clave
+
+## Conceptos Clave
+
+| Concepto Clave | Descripción Resumida | Ecuaciones Clave |
+| :--- | :--- | :--- |
+| **Ley de Gravitación Universal** | La fuerza de atracción entre dos partículas es directamente proporcional al producto de sus masas e inversamente proporcional al cuadrado de la distancia ($r$) entre ellas. | $\\color{blue}{F_g = G $$\\frac$${m_1 m_2}{r^2}}$ |
+| **Campo Gravitacional (\\mathbf{g})** | La fuerza gravitacional por unidad de masa en un punto del espacio. | $\\color{blue}{\\mathbf{g} = $$\\frac$${\\mathbf{F}_g}{m}}$ |
+| **Aceleración Gravitacional** | La magnitud de la aceleración de caída libre en la superficie de un planeta de masa $M$ y radio $R$. | $\\color{blue}{g = G $$\\frac$${M}{R^2}}$ |
+| **Energía Potencial Gravitacional ($U_g$)** | La energía potencial para dos masas separadas por una distancia $r$. Es negativa, y $U_g \\to 0$ cuando $r \\to \\infty$. | $\\color{blue}{U_g = - G $$\\frac$${M m}{r}}$ |
+| **Velocidad de Escape ($v_{$$\\text$${esc}}$)** | Rapidez mínima necesaria para que un objeto escape del campo gravitacional de un planeta (la energía mecánica total debe ser cero). | $\\color{blue}{v_{$$\\text$${esc}} = $$\\sqrt$${$$\\frac$${2 G M}{R}}}$ |
+
+#### Pregunta Conceptual Resuelta
+
+* **Pregunta:** ¿Por qué un astronauta en la Estación Espacial Internacional (ISS) está 'flotando' si la gravedad de la Tierra es todavía fuerte a esa altitud?
+* **Análisis:** La 'flotación' no es causada por la ausencia de gravedad, sino por un estado de caída libre constante. 
+* **Respuesta:** La ISS y el astronauta están en un estado de **caída libre continua**. Ambos caen hacia la Tierra, pero con una velocidad tangencial tan alta que constantemente fallan en golpear la Tierra, siguiendo la curvatura del planeta. La gravedad es responsable de la aceleración centrípeta requerida para la órbita, pero el astronauta y la estación caen a la misma tasa, por lo que parecen flotar (microgravedad).
+

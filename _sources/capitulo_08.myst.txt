@@ -1,0 +1,50 @@
+(capitulo_8)=
+# Capítulo 8: Energía Potencial y Conservación de la Energía
+
+*Parte: Mecánica*
+*Fecha: 2025-12-12*
+
+## 1. Guía Teórica y Conceptos Clave
+
+## Conceptos Clave
+
+| Concepto Clave | Descripción Resumida | Ecuaciones Clave |
+| :--- | :--- | :--- |
+| **Fuerza Conservativa** | Una fuerza donde el trabajo realizado es independiente de la trayectoria y solo depende de los puntos inicial y final (e.g., gravedad, resorte). | $\\color{blue}{W_c = - $$\\Delta$$ U}$ |
+| **Energía Potencial ($U$)** | Energía almacenada que puede convertirse en energía cinética. Asociada a la posición del objeto dentro de un campo conservativo. | |
+| **Energía Potencial Gravitacional ($U_g$)** | Energía asociada a la altura de un objeto en el campo gravitacional. | $\\color{blue}{U_g = m g y}$ |
+| **Energía Potencial Elástica ($U_s$)** | Energía almacenada en un resorte deformado (comprimido o estirado). | $\\color{blue}{U_s = $$\\frac$${1}{2} k x^2}$ |
+| **Energía Mecánica ($E_{$$\\text$${mec}}$)** | La suma de la energía cinética y la energía potencial (gravitacional y elástica) de un sistema. | $\\color{blue}{E_{$$\\text$${mec}} = K + U}$ |
+| **Conservación de la Energía Mecánica** | Si solo actúan fuerzas conservativas, la energía mecánica total del sistema se mantiene constante. | $\\color{blue}{E_{$$\\text$${mec, } i} = E_{$$\\text$${mec, } f} \\implies K_i + U_i = K_f + U_f}$ |
+| **Conservación de la Energía (General)** | Si actúan fuerzas no conservativas (como la fricción), el cambio en la energía total es igual al trabajo realizado por las fuerzas no conservativas. | $\\color{blue}{$$\\Delta$$ E_{$$\\text$${total}} = W_{$$\\text$${nc}}}$ |
+
+#### Pregunta Conceptual Resuelta
+
+* **Pregunta:** ¿Cuál es la diferencia entre una fuerza conservativa y una no conservativa?
+* **Análisis:** La diferencia reside en si la trayectoria afecta el trabajo realizado. 
+* **Respuesta:** Una fuerza **conservativa** (como la gravedad) realiza el mismo trabajo al mover un objeto entre dos puntos, sin importar el camino. Una fuerza **no conservativa** (como la fricción) realiza un trabajo que *sí* depende de la trayectoria (cuanto más larga la trayectoria, más trabajo realiza la fricción y más energía se disipa, generalmente como calor).
+
+## 2. Guía de Ejercicios Resueltos
+
+### Problema 1: Problema 1 sin enunciado.
+
+Problema 1 sin enunciado.
+
+.. dropdown:: Mostrar Solución
+
+   ### Paso 1: Aplicar la Conservación de la Energía Mecánica
+   Como la fricción es despreciable, $\\Delta E_{$$\\text$${mec}} = 0$.
+   $$K_i + U_{g,i} = K_f + U_{g,f}$$
+   
+   ### Paso 2: Definir Puntos Iniciales y Finales
+   * **Inicio (i):** Cima de la colina ($y_i = 20.0 $$\\text$${ m}$). Reposo ($K_i = 0$). $U_{g,i} = m g y_i$.
+   * **Final (f):** Fondo de la colina ($y_f = 0$). $U_{g,f} = 0$. $K_f = $$\\frac$${1}{2} m v_f^2$.
+   
+   ### Paso 3: Despeje y Cálculo de la Rapidez ($v_f$)
+   $$0 + m g y_i = $$\\frac$${1}{2} m v_f^2 + 0$$
+   La masa ($m$) se cancela, demostrando que $v_f$ es independiente de la masa:
+   $$g y_i = $$\\frac$${1}{2} v_f^2 \\implies v_f = $$\\sqrt$${2 g y_i}$$
+   $$v_f = $$\\sqrt$${2 (9.80 $$\\text$${ m/s}^2) (20.0 $$\\text$${ m})} = $$\\sqrt$${392 $$\\text$${ m}^2/$$\\text$${s}^2} \\approx 19.8 $$\\text$${ m/s}$$
+   
+   **Respuesta:** La rapidez de la esquiadora es **$19.8 $$\\text$${ m/s}$**.
+
