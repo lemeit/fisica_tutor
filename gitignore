@@ -8,3 +8,6 @@ __pycache__/
 # Archivos de caché
 *.pyc
 .DS_Store
+
+# Archivos sensibles o temporales
+github token
