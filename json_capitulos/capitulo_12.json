@@ -1,0 +1,13 @@
+{
+  "capitulo_id": 12,
+  "titulo": "Capítulo 12: Equilibrio Estático y Elasticidad",
+  "parte": "Mecánica",
+  "fecha_generacion": "2025-12-12",
+  "secciones": [
+    {
+      "tipo": "teoria",
+      "titulo": "1. Guía Teórica y Conceptos Clave",
+      "contenido_markdown": "## Conceptos Clave\n\n| Concepto Clave | Descripción Resumida | Ecuaciones Clave |\n| :--- | :--- | :--- |\n| **Equilibrio Estático** | Objeto en reposo. Se requieren dos condiciones: equilibrio de traslación y equilibrio de rotación. | $|\n| **Primera Condición de Equilibrio** | La fuerza neta externa que actúa sobre el objeto debe ser cero (equilibrio traslacional). | $\\\\color{blue}{$$\\\\sum$$ \\\\mathbf{F} = 0}$ |\n| **Segunda Condición de Equilibrio** | El torque neto externo con respecto a cualquier eje debe ser cero (equilibrio rotacional). | $\\\\color{blue}{$$\\\\sum$$ \\\\tau = 0}$ |\n| **Módulo de Young ($Y$)** | Mide la resistencia de un sólido a ser deformado bajo esfuerzos de tensión o compresión (esfuerzo/deformación). | $\\\\color{blue}{Y = $$\\\\frac$${$$\\\\text$${Esfuerzo}}{D_{$$\\\\text$${long.}}}}$ |\n| **Esfuerzo (\\\\sigma)** | Fuerza por unidad de área aplicada al objeto. | $\\\\color{blue}{$$\\\\text$${Esfuerzo} = $$\\\\frac$${F}{A}}$ |\n| **Deformación (\\\\epsilon)** | Cambio fraccionario en la longitud, $\\\\Delta L/L_0$. | $\\\\color{blue}{D_{$$\\\\text$${long.}} = $$\\\\frac$${$$\\\\Delta$$ L}{L_0}}$ |\n\n#### Pregunta Conceptual Resuelta\n\n* **Pregunta:** ¿Por qué un torque neto cero asegura que el objeto no rota, independientemente de dónde se elija el eje de rotación?\n* **Análisis:** El torque se calcula respecto a un eje. Si las fuerzas se equilibran, la rotación no debe depender del punto de observación. \n* **Respuesta:** Si se cumplen tanto la Primera Condición (fuerza neta = 0) como la Segunda Condición (torque neto = 0 en un punto **arbitrario**), el objeto está en equilibrio rotacional. Matemáticamente, si $\\\\sum \\\\mathbf{F} = 0$, el torque neto respecto a cualquier otro punto también es cero, lo que verifica la consistencia física del equilibrio."
+    }
+  ]
+}

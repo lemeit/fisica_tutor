@@ -1,0 +1,24 @@
+{
+  "capitulo_id": 4,
+  "titulo": "Capítulo 4: Leyes del Movimiento de Newton",
+  "parte": "Mecánica",
+  "fecha_generacion": "2025-12-12",
+  "secciones": [
+    {
+      "tipo": "teoria",
+      "titulo": "1. Guía Teórica y Conceptos Clave",
+      "contenido_markdown": "## Conceptos Clave\n\n| Concepto Clave | Descripción Resumida | Ecuaciones Clave |\n| :--- | :--- | :--- |\n| **Primera Ley (Inercia)** | Un objeto en reposo o en movimiento rectilíneo uniforme mantiene su estado, a menos que una fuerza neta actúe sobre él. | $\\\\color{blue}{$$\\\\sum$$ \\\\mathbf{F} = 0 \\\\implies \\\\mathbf{a} = 0}$ |\n| **Masa ($m$)** | Medida de la inercia de un objeto (su resistencia a la aceleración). Es una cantidad escalar. | $|\n| **Segunda Ley** | La aceleración de un objeto es directamente proporcional a la fuerza neta que actúa sobre él e inversamente proporcional a su masa. | $\\\\color{blue}{$$\\\\sum$$ \\\\mathbf{F} = m \\\\mathbf{a}}$ |\n| **Tercera Ley (Acción/Reacción)** | Las fuerzas siempre ocurren en pares. $\\\\mathbf{F}_{AB} = - \\\\mathbf{F}_{BA}$. Las fuerzas de un par actúan sobre cuerpos diferentes. | $|\n| **Fuerza de Gravedad (Peso)** | La fuerza que la Tierra ejerce sobre un objeto. | $\\\\color{blue}{\\\\mathbf{W} = m \\\\mathbf{g}}$ |\n\n#### Pregunta Conceptual Resuelta\n\n* **Pregunta:** Un camión de 10,000 kg choca con un automóvil de 1,000 kg. Durante el choque, ¿cuál vehículo experimenta una fuerza de impacto de mayor magnitud?\n* **Análisis:** La Tercera Ley de Newton establece la interacción entre ambos. \n* **Respuesta:** **Ambos vehículos experimentan fuerzas de igual magnitud**. La fuerza que el camión ejerce sobre el auto es igual en magnitud y opuesta en dirección a la fuerza que el auto ejerce sobre el camión. La gran diferencia es que la aceleración del automóvil ($a = F/m$) es 10 veces mayor que la del camión debido a su menor masa."
+    },
+    {
+      "tipo": "ejercicios",
+      "titulo": "2. Guía de Ejercicios Resueltos",
+      "ejercicios": [
+        {
+          "ejercicio_id": 5,
+          "enunciado": "Problema 5: Una masa de $5.0 \\\\text{ kg}$ se jala horizontalmente sobre una superficie lisa (sin fricción) mediante una fuerza de $20.0 \\\\text{ N}$. Calcule la aceleración de la masa.",
+          "solucion_markdown": "### Paso 1: Aplicación de la Segunda Ley de Newton\\nComo la superficie es lisa, la fuerza neta es simplemente la fuerza aplicada en la dirección horizontal.\\n$$\\\\sum F_x = F_{$$\\\\text$${aplicada}} = m a_x$$\\n\n### Paso 2: Cálculo de la Aceleración ($a_x$)\\n$$a_x = $$\\\\frac$${F_{$$\\\\text$${aplicada}}}{m} = $$\\\\frac$${20.0 $$\\\\text$${ N}}{5.0 $$\\\\text$${ kg}}$$\\n$$a_x = 4.0 $$\\\\text$${ m/s}^2$$\\n\n**Respuesta:** La aceleración es **$4.0 $$\\\\text$${ m/s}^2$**."
+        }
+      ]
+    }
+  ]
+}

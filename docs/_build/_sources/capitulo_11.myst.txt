@@ -1,0 +1,24 @@
+(capitulo_11)=
+# Capítulo 11: Momento Angular
+
+*Parte: Mecánica*
+*Fecha: 2025-12-12*
+
+## 1. Guía Teórica y Conceptos Clave
+
+## Conceptos Clave
+
+| Concepto Clave | Descripción Resumida | Ecuaciones Clave |
+| :--- | :--- | :--- |
+| **Momento Angular (\\mathbf{L})** | Cantidad de movimiento rotacional (equivalente al momentum lineal en la rotación). Es un vector. | $\\color{blue}{\\mathbf{L} = I \\mathbf{\\omega}}$ (Cuerpo rígido) |
+| **Torque y Momento Angular** | El torque neto externo es igual a la tasa de cambio del momento angular. (Análogo a $\\mathbf{F} = d \\mathbf{p}/dt$) | $\\color{blue}{$$\\sum$$ \\tau_{$$\\text$${ext}} = $$\\frac$${d \\mathbf{L}}{d t}}$ |
+| **Conservación del Momento Angular** | Si el torque neto externo que actúa sobre un sistema es cero, el momento angular total del sistema se mantiene constante. | $\\color{blue}{$$\\sum$$ \\tau_{$$\\text$${ext}} = 0 \\implies \\mathbf{L}_i = \\mathbf{L}_f}$ |
+| **Rotación y Energía** | El trabajo realizado por un torque constante $\\tau$ que produce un desplazamiento angular $\\Delta \\theta$. | $\\color{blue}{W = \\tau $$\\Delta$$ \\theta}$ |
+| **Potencia en Rotación** | Tasa a la que se realiza trabajo rotacional. | $\\color{blue}{P = \\tau \\omega}$ |
+
+#### Pregunta Conceptual Resuelta
+
+* **Pregunta:** Cuando un patinador artístico que está girando junta sus brazos al cuerpo, su rapidez angular aumenta dramáticamente. ¿Por qué?
+* **Análisis:** El torque neto externo sobre el patinador (despreciando la fricción) es cero. Por lo tanto, el momento angular ($\\mathbf{L}$) se conserva. 
+* **Respuesta:** $\\mathbf{L} = I \\omega = $$\\text$${constante}$. Al juntar sus brazos, el patinador reduce la distancia de la masa al eje de rotación, lo que **disminuye drásticamente su momento de inercia ($I$)**. Para mantener el momento angular $\\mathbf{L}$ constante, la velocidad angular ($\\omega$) debe aumentar en proporción inversa.
+

@@ -1,0 +1,13 @@
+{
+  "capitulo_id": 16,
+  "titulo": "Capítulo 16: Movimiento Ondulatorio",
+  "parte": "Oscilaciones y Ondas Mecánicas",
+  "fecha_generacion": "2025-12-12",
+  "secciones": [
+    {
+      "tipo": "teoria",
+      "titulo": "1. Guía Teórica y Conceptos Clave",
+      "contenido_markdown": "## Conceptos Clave\n\n| Concepto Clave | Descripción Resumida | Ecuaciones Clave |\n| :--- | :--- | :--- |\n| **Onda Transversal** | Los elementos del medio oscilan perpendicularmente a la dirección de propagación de la onda (e.g., ondas en una cuerda, luz). | $|\n| **Onda Longitudinal** | Los elementos del medio oscilan paralelamente a la dirección de propagación de la onda (e.g., ondas sonoras). | $|\n| **Longitud de Onda (\\lambda)** | Distancia entre dos puntos idénticos consecutivos de la onda. | $|\n| **Rapidez de Onda ($v$)** | Relaciona la frecuencia ($f$) y la longitud de onda (\\\\lambda). | $\\\\color{blue}{v = \\\\lambda f}$ |\n| **Rapidez en Cuerda Tensada** | La rapidez de una onda transversal depende de la tensión ($T$) y la densidad lineal de masa (\\\\mu). | $\\\\color{blue}{v = $$\\\\sqrt$${$$\\\\frac$${T}{\\\\mu}}}$ $|\n| **Función de Onda** | Describe la posición $y$ de un elemento del medio en función de la posición $x$ y el tiempo $t$. | $\\\\color{blue}{y(x, t) = A \\\\sin (k x - \\\\omega t)}$ \\n ($k$ es el número de onda) |\n| **Potencia Transferida** | La potencia media transferida por una onda sinusoidal en una cuerda. | $\\\\color{blue}{P_{$$\\\\text$${prom}} = $$\\\\frac$${1}{2} \\\\mu \\\\omega^2 A^2 v}$ |\n\n#### Pregunta Conceptual Resuelta\n\n* **Pregunta:** Si se duplica la tensión en una cuerda, ¿cómo cambia la rapidez de la onda que viaja en ella?\n* **Análisis:** La rapidez de la onda depende de la raíz cuadrada de la tensión ($v = $$\\\\sqrt$${T/\\\\mu}$). \n* **Respuesta:** La rapidez de la onda **aumenta por un factor de $\\\\sqrt{2}$** (aproximadamente 1.41). Si $T' = 2T$, entonces $v' = $$\\\\sqrt$${2 T/\\\\mu} = $$\\\\sqrt$${2} \\\\cdot $$\\\\sqrt$${T/\\\\mu} = $$\\\\sqrt$${2} v$."
+    }
+  ]
+}

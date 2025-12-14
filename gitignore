@@ -1,0 +1,10 @@
+# Directorio de compilación de Sphinx
+_build/
+
+# Entorno virtual de Python
+.venv/
+__pycache__/
+
+# Archivos de caché
+*.pyc
+.DS_Store

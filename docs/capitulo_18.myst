@@ -1,0 +1,31 @@
+(capitulo_18)=
+# Capítulo 18: Sobreposición y Ondas Estacionarias
+
+*Parte: Oscilaciones y Ondas Mecánicas*
+*Fecha: 2025-12-12*
+
+## 1. Guía Teórica y Conceptos Clave
+
+## Conceptos Clave
+
+| Concepto Clave | Descripción Resumida | Ecuaciones Clave |
+| :--- | :--- | :--- |
+| **Principio de Superposición** | Cuando dos o más ondas se combinan, el desplazamiento resultante en cualquier punto es la suma algebraica de los desplazamientos de las ondas individuales. | $\\color{blue}{y_{$$\\text$${resultante}} = y_1 + y_2}$ |
+| **Interferencia Constructiva** | Ocurre cuando dos ondas están en fase ($\\Delta \\phi = 0, 2 \\pi, 4 \\pi, ...$) y sus amplitudes se suman. | $|
+| **Interferencia Destructiva** | Ocurre cuando dos ondas están $180^{\circ}$ fuera de fase ($\\Delta \\phi = \\pi, 3 \\pi, 5 \\pi, ...$) y sus amplitudes se restan. | $|
+| **Ondas Estacionarias** | Patrón de onda que resulta de la interferencia de dos ondas idénticas que viajan en direcciones opuestas. No hay propagación neta de energía. | $|
+| **Armónicos en Cuerda** | Las frecuencias de resonancia ($f_n$) para una cuerda fija en ambos extremos. El primer armónico es la fundamental ($n=1$). | $\\color{blue}{f_n = n $$\\frac$${v}{2L}}$ 
+ ($n = 1, 2, 3, ...$) |
+| **Armónicos en Tubo Abierto** | Las frecuencias de resonancia para un tubo abierto en ambos extremos (similar a la cuerda). | $\\color{blue}{f_n = n $$\\frac$${v}{2L}}$ 
+ ($n = 1, 2, 3, ...$) |
+| **Armónicos en Tubo Cerrado** | Las frecuencias de resonancia para un tubo cerrado en un extremo (solo se permiten armónicos impares). | $\\color{blue}{f_n = n $$\\frac$${v}{4L}}$ 
+ ($n = 1, 3, 5, ...$) |
+
+#### Pregunta Conceptual Resuelta
+
+* **Pregunta:** Si una cuerda produce el tercer armónico (n=3), ¿cuántos nodos y antinodos tiene el patrón de onda estacionaria?
+* **Análisis:** Para el $n$-ésimo armónico, el número de segmentos es $n$. Los nodos son puntos sin movimiento (incluyendo los extremos). Los antinodos son puntos de máxima amplitud.
+* **Respuesta:** Para el tercer armónico ($n=3$):
+    * **Nodos:** $n+1 = 3+1 = \\mathbf{4 $$\\text$${ nodos}}$ (incluyendo los extremos).
+    * **Antinodos:** $n = \\mathbf{3 $$\\text$${ antinodos}}$.
+
