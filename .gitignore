@@ -1,0 +1,13 @@
+# Entornos Virtuales
+.venv/
+__pycache__/
+
+# Archivos Sensibles y temporales
+github_token.txt
+*.log
+
+# Archivos Fuente pesados (NO deben ir a Git)
+pdfs_fuente/
+
+# Archivos de Build de Documentación (Generados por Sphinx)
+docs/_build/
