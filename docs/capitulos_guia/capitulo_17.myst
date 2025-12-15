@@ -1,26 +1,17 @@
-(capitulo_17)=
 # Capítulo 17: Ondas Sonoras
 
-*Parte: Oscilaciones y Ondas Mecánicas*
-*Fecha: 2025-12-12*
-
 ## 1. Guía Teórica y Conceptos Clave
-
-## Conceptos Clave
+[Image illustrating the Doppler effect with a moving source and stationary observer]
 
 | Concepto Clave | Descripción Resumida | Ecuaciones Clave |
 | :--- | :--- | :--- |
-| **Rapidez del Sonido ($v$)** | Rapidez de una onda de presión en un medio. Depende de las propiedades de elasticidad y densidad. | $\\color{blue}{v \\approx (331 $$\\text$${ m/s}) $$\\sqrt$${1 + $$\\frac$${T_{$$\\text$${C}}}{273^{\\circ}}}}}$ (En aire) |
-| **Intensidad de Sonido ($I$)** | Potencia transportada por una onda a través de un área unitaria, perpendicular a la dirección de propagación. | $\\color{blue}{I = $$\\frac$${P}{A}}$ |
-| **Nivel de Intensidad (\beta)** | Escala logarítmica (en decibeles, $\\text{dB}$) para describir el oído humano. | $\\color{blue}{\\beta = 10 \\log_{10} \\left($$\\frac{I}{I_0}
-ight)}$ 
- ($I_0 = 1.0 \	imes 10^{-12} $$\\text$${ W/m}^2$) |
-| **Efecto Doppler** | Cambio en la frecuencia de una onda cuando hay movimiento relativo entre la fuente de la onda y el observador. | $\\color{blue}{f' = f \\left($$\\frac{v \\pm v_O}{v \\mp v_S}
-ight)}$ |
+| **Rapidez del Sonido ($v$)** | Rapidez de una onda de presión en un medio. Depende de las propiedades de elasticidad y densidad. | $\color{blue}v \approx (331 \text{ m/s}) \sqrt{1 + \frac{T_{\text{C}}}{273^{\circ}}}$ (En aire) |
+| **Intensidad de Sonido ($I$)** | Potencia transportada por una onda a través de un área unitaria, perpendicular a la dirección de propagación. | $\color{blue}I = \frac{P}{A}$ |
+| **Nivel de Intensidad ($\beta$)** | Escala logarítmica (en decibeles, $\text{dB}$) para describir el oído humano. | $\color{blue}\beta = 10 \log_{10} \left(\frac{I}{I_0}\right)$ <br> ($I_0 = 1.0 \times 10^{-12} \text{ W/m}^2$) |
+| **Efecto Doppler** | Cambio en la frecuencia de una onda cuando hay movimiento relativo entre la fuente de la onda y el observador. | $\color{blue}f' = f \left(\frac{v \pm v_O}{v \mp v_S}\right)$ |
 
 #### Pregunta Conceptual Resuelta
 
 * **Pregunta:** ¿Por qué un tren que se acerca tiene un tono (frecuencia) más alto que cuando se aleja?
-* **Análisis:** Esto es el Efecto Doppler. La frecuencia percibida ($f'$) es afectada por el movimiento relativo. 
+* **Análisis:** Esto es el Efecto Doppler. La frecuencia percibida ($f'$) es afectada por el movimiento relativo.
 * **Respuesta:** Cuando la fuente (tren) se **acerca**, la rapidez relativa entre la fuente y el observador disminuye la longitud de onda percibida (las crestas se comprimen), lo que resulta en una frecuencia ($f'$) más alta. Cuando se **aleja**, las crestas se estiran, resultando en una frecuencia más baja.
-

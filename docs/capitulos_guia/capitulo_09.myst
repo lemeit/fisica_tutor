@@ -1,53 +1,43 @@
-(capitulo_9)=
 # Capítulo 9: Centro de Masa y Colisiones
-
-*Parte: Mecánica*
-*Fecha: 2025-12-12*
 
 ## 1. Guía Teórica y Conceptos Clave
 
-## Conceptos Clave
 
 | Concepto Clave | Descripción Resumida | Ecuaciones Clave |
 | :--- | :--- | :--- |
-| **Centro de Masa (CM)** | Punto que representa la masa promedio del sistema. El CM se mueve como si toda la masa estuviera concentrada allí y todas las fuerzas externas actuaran sobre él. | $\\color{blue}{\\mathbf{r}_{CM} = $$\\frac$${$$\\sum$$ m_i \\mathbf{r}_i}{M}}$ |
-| **Momentum Lineal (\\mathbf{p})** | Producto de la masa por la velocidad. Es una cantidad vectorial. | $\\color{blue}{\\mathbf{p} = m \\mathbf{v}}$ |
-| **Impulso (\\mathbf{I})** | Cambio en el momentum de un objeto. Igual a la fuerza neta promedio multiplicada por el intervalo de tiempo. | $\\color{blue}{\\mathbf{I} = \\mathbf{F}_{prom} $$\\Delta$$ t = $$\\Delta$$ \\mathbf{p}}$ |
-| **Conservación del Momentum** | Si la fuerza neta externa sobre un sistema es cero, el momentum lineal total del sistema se conserva ($\\mathbf{p}_{i} = \\mathbf{p}_{f}$). | $\\color{blue}{$$\\sum$$ \\mathbf{F}_{ext} = 0 \\implies $$\\Delta$$ \\mathbf{p} = 0}$ |
-| **Colisión Elástica** | Colisión en la que tanto el momentum como la energía cinética total del sistema se conservan. | $K_i = K_f$ y $\\mathbf{p}_i = \\mathbf{p}_f$ |
-| **Colisión Inelástica** | Colisión en la que el momentum se conserva, pero parte de la energía cinética se convierte en otras formas (calor, deformación). | $\\mathbf{p}_i = \\mathbf{p}_f$; $K_i 
-e K_f$ |
+| **Centro de Masa (CM)** | Punto que representa la masa promedio del sistema. El CM se mueve como si toda la masa estuviera concentrada allí y todas las fuerzas externas actuaran sobre él. | $\color{blue}\mathbf{r}_{CM} = \frac{\sum m_i \mathbf{r}_i}{M}$ |
+| **Momentum Lineal ($\mathbf{p}$)** | Producto de la masa por la velocidad. Es una cantidad vectorial. | $\color{blue}\mathbf{p} = m \mathbf{v}$ |
+| **Impulso ($\mathbf{I}$)** | Cambio en el momentum de un objeto. Igual a la fuerza neta promedio multiplicada por el intervalo de tiempo. | $\color{blue}\mathbf{I} = \mathbf{F}_{\text{prom}} \Delta t = \Delta \mathbf{p}$ |
+| **Conservación del Momentum** | Si la fuerza neta externa sobre un sistema es cero, el momentum lineal total del sistema se conserva ($\mathbf{p}_{i} = \mathbf{p}_{f}$). | $\color{blue}\sum \mathbf{F}_{\text{ext}} = 0 \implies \Delta \mathbf{p} = 0$ |
+| **Colisión Elástica** | Colisión en la que tanto el momentum como la energía cinética total del sistema se conservan. | $K_i = K_f$ y $\mathbf{p}_i = \mathbf{p}_f$ |
+| **Colisión Inelástica** | Colisión en la que el momentum se conserva, pero parte de la energía cinética se convierte en otras formas (calor, deformación). | $\mathbf{p}_i = \mathbf{p}_f$; $K_i \ne K_f$ |
 
 #### Pregunta Conceptual Resuelta
 
 * **Pregunta:** ¿En qué tipo de colisión (elástica, inelástica o perfectamente inelástica) el cambio en el momentum de un solo objeto es mayor?
-* **Análisis:** El impulso es $\\Delta \\mathbf{p}$, que es el mismo para ambos objetos en la colisión, pero la pregunta es sobre UN solo objeto. 
-* **Respuesta:** En **todos los tipos de colisiones**, el cambio en el momentum de cada objeto individual es el mismo, siempre que la colisión tenga la misma duración. La conservación de momentum garantiza que $\\Delta \\mathbf{p}_1 = -$$\\Delta$$ \\mathbf{p}_2$.
+* **Análisis:** El impulso es $\Delta \mathbf{p}$, que es el mismo para ambos objetos en la colisión, pero la pregunta es sobre UN solo objeto.
+* **Respuesta:** En **todos los tipos de colisiones**, el cambio en el momentum de cada objeto individual es el mismo, siempre que la colisión tenga la misma duración. La conservación de momentum garantiza que $\Delta \mathbf{p}_1 = -\Delta \mathbf{p}_2$.
 
 ## 2. Guía de Ejercicios Resueltos
 
-### Problema 1: Problema 1 sin enunciado.
+### Problema 5: Un automóvil de $1500 \text{ kg}$ viaja al este a $25 \text{ m/s}$. Choca con un camión de $2500 \text{ kg}$ que viaja al norte a $15 \text{ m/s}$. Si quedan unidos (colisión perfectamente inelástica), calcule la rapidez final del conjunto.
 
-Problema 1 sin enunciado.
+### Paso 1: Conservación del Momentum (Ejes X e Y)
+$$\mathbf{P}_i = \mathbf{P}_f \implies P_{ix} = P_{fx} \text{ y } P_{iy} = P_{fy}$$
+* $m_A = 1500 \text{ kg}$, $v_{Ai} = 25 \text{ m/s}$ (Este)
+* $m_C = 2500 \text{ kg}$, $v_{Ci} = 15 \text{ m/s}$ (Norte)
+* Masa final: $M = m_A + m_C = 4000 \text{ kg}$ (con rapidez $v_f$).
 
-.. dropdown:: Mostrar Solución
+### Paso 2: Componente X (Este)
+$$P_{ix} = m_A v_{Ai} = (1500 \text{ kg}) (25 \text{ m/s}) = 37 500 \text{ kg} \cdot \text{m/s}$$
+$$P_{fx} = M v_{fx} \implies v_{fx} = \frac{37 500}{4000} = 9.375 \text{ m/s}$$
 
-   ### Paso 1: Conservación del Momentum (Ejes X e Y)
-   $$\\mathbf{P}_i = \\mathbf{P}_f \\implies P_{ix} = P_{fx} $$\\text$${ y } P_{iy} = P_{fy}$$
-   * $m_A = 1500 $$\\text$${ kg}$, $v_{Ai} = 25 $$\\text$${ m/s}$ (Este)
-   * $m_C = 2500 $$\\text$${ kg}$, $v_{Ci} = 15 $$\\text$${ m/s}$ (Norte)
-   * Masa final: $M = m_A + m_C = 4000 $$\\text$${ kg}$ (con rapidez $v_f$).
-   
-   ### Paso 2: Componente X (Este)
-   $$P_{ix} = m_A v_{Ai} = (1500 $$\\text$${ kg}) (25 $$\\text$${ m/s}) = 37 500 $$\\text$${ kg} \ ot  $$\\text$${m/s}$$
-   $$P_{fx} = M v_{fx} \\implies v_{fx} = $$\\frac$${37 500}{4000} = 9.375 $$\\text$${ m/s}$$
-   
-   ### Paso 3: Componente Y (Norte)
-   $$P_{iy} = m_C v_{Ci} = (2500 $$\\text$${ kg}) (15 $$\\text$${ m/s}) = 37 500 $$\\text$${ kg} \ ot  $$\\text$${m/s}$$
-   $$P_{fy} = M v_{fy} \\implies v_{fy} = $$\\frac$${37 500}{4000} = 9.375 $$\\text$${ m/s}$$
-   
-   ### Paso 4: Rapidez Final ($v_f$)
-   $$v_f = $$\\sqrt$${v_{fx}^2 + v_{fy}^2} = $$\\sqrt$${(9.375)^2 + (9.375)^2} \\approx 13.3 $$\\text$${ m/s}$$
-   
-   **Respuesta:** La rapidez final del conjunto es **$13.3 $$\\text$${ m/s}$**.
+### Paso 3: Componente Y (Norte)
+$$P_{iy} = m_C v_{Ci} = (2500 \text{ kg}) (15 \text{ m/s}) = 37 500 \text{ kg} \cdot \text{m/s}$$
+$$P_{fy} = M v_{fy} \implies v_{fy} = \frac{37 500}{4000} = 9.375 \text{ m/s}$$
 
+### Paso 4: Rapidez Final ($v_f$)
+$$v_f = \sqrt{v_{fx}^2 + v_{fy}^2} = \sqrt{(9.375)^2 + (9.375)^2} \approx 13.3 \text{ m/s}$$
+
+
+**Respuesta:** La rapidez final del conjunto es **$13.3 \text{ m/s}$**.

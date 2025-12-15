@@ -1,44 +1,33 @@
-(capitulo_6)=
 # Capítulo 6: Trabajo y Energía Cinética
-
-*Parte: Mecánica*
-*Fecha: 2025-12-12*
 
 ## 1. Guía Teórica y Conceptos Clave
 
-## Conceptos Clave
-
 | Concepto Clave | Descripción Resumida | Ecuaciones Clave |
 | :--- | :--- | :--- |
-| **Trabajo ($W$)** | Transferencia de energía que resulta de una fuerza aplicada a lo largo de un desplazamiento. Es un escalar. | $\\color{blue}{W = (F \\cos \\theta) d}$ $|
-| **Energía Cinética ($K$)** | Energía asociada al movimiento de un objeto. Siempre positiva. | $\\color{blue}{K = $$\\frac$${1}{2} m v^2}$ |
-| **Teorema de Trabajo y Energía Cinética** | El trabajo neto realizado por todas las fuerzas sobre un objeto es igual al cambio en su energía cinética. | $\\color{blue}{W_{$$\\text$${neto}} = $$\\Delta$$ K = K_f - K_i}$ |
-| **Potencia ($P$)** | Tasa temporal a la que se transfiere o se realiza el trabajo. Unidad SI: Watt (W). | $\\color{blue}{P = $$\\frac$${W}{$$\\Delta$$ t}}$ 
- $\\color{blue}{P = F v \\cos \\theta}$ |
+| **Trabajo ($W$)** | Transferencia de energía que resulta de una fuerza aplicada a lo largo de un desplazamiento. Es un escalar. | $\color{blue}W = (F \cos \theta) d$ |
+| **Energía Cinética ($K$)** | Energía asociada al movimiento de un objeto. Siempre positiva. | $\color{blue}K = \frac{1}{2} m v^2$ |
+| **Teorema de Trabajo y Energía Cinética** | El trabajo neto realizado por todas las fuerzas sobre un objeto es igual al cambio en su energía cinética. | $\color{blue}W_{\text{neto}} = \Delta K = K_f - K_i$ |
+| **Potencia ($P$)** | Tasa temporal a la que se transfiere o se realiza el trabajo. Unidad SI: Watt (W). | $\color{blue}P = \frac{W}{\Delta t}$ <br> $\color{blue}P = F v \cos \theta$ |
 
 #### Pregunta Conceptual Resuelta
+[Image showing a force applied perpendicular to the displacement (e.g., normal force, centripetal force)]
 
 * **Pregunta:** ¿Es posible que una fuerza aplicada a un objeto no realice trabajo sobre él?
-* **Análisis:** El trabajo requiere que haya una componente de la fuerza paralela al desplazamiento. 
-* **Respuesta:** Sí. El trabajo realizado por una fuerza $W = (F \\cos \\theta) d$. Si el ángulo $\\theta$ entre la fuerza y el desplazamiento es $90^{\circ}$ ($\\cos 90^{\circ} = 0$), el trabajo es cero. El ejemplo clásico es la fuerza normal o la fuerza centrípeta en movimiento circular uniforme.
+* **Análisis:** El trabajo requiere que haya una componente de la fuerza paralela al desplazamiento.
+* **Respuesta:** Sí. El trabajo realizado por una fuerza $W = (F \cos \theta) d$. Si el ángulo $\theta$ entre la fuerza y el desplazamiento es $90^{\circ}$ ($\cos 90^{\circ} = 0$), el trabajo es cero. El ejemplo clásico es la fuerza normal o la fuerza centrípeta en movimiento circular uniforme.
 
 ## 2. Guía de Ejercicios Resueltos
 
-### Problema 1: Problema 1 sin enunciado.
+### Problema 5: Un objeto de $3.0 \text{ kg}$ se mueve de $v_i = 2.0 \text{ m/s}$ a $v_f = 4.0 \text{ m/s}$. Calcule el trabajo neto realizado sobre el objeto.
 
-Problema 1 sin enunciado.
+### Paso 1: Aplicar el Teorema de Trabajo y Energía Cinética
+$$\color{blue}W_{\text{neto}} = \Delta K = K_f - K_i$$
 
-.. dropdown:: Mostrar Solución
+### Paso 2: Cálculo de la Energía Cinética Inicial y Final
+$$K_i = \frac{1}{2} m v_i^2 = \frac{1}{2} (3.0 \text{ kg}) (2.0 \text{ m/s})^2 = 6.0 \text{ J}$$
+$$K_f = \frac{1}{2} m v_f^2 = \frac{1}{2} (3.0 \text{ kg}) (4.0 \text{ m/s})^2 = 24.0 \text{ J}$$
 
-   ### Paso 1: Aplicar el Teorema de Trabajo y Energía Cinética
-   $$\\color{blue}{W_{$$\\text$${neto}} = $$\\Delta$$ K = K_f - K_i}$$
-   
-   ### Paso 2: Cálculo de la Energía Cinética Inicial y Final
-   $$K_i = $$\\frac$${1}{2} m v_i^2 = $$\\frac$${1}{2} (3.0 $$\\text$${ kg}) (2.0 $$\\text$${ m/s})^2 = 6.0 $$\\text$${ J}$$
-   $$K_f = $$\\frac$${1}{2} m v_f^2 = $$\\frac$${1}{2} (3.0 $$\\text$${ kg}) (4.0 $$\\text$${ m/s})^2 = 24.0 $$\\text$${ J}$$
-   
-   ### Paso 3: Cálculo del Trabajo Neto
-   $$W_{$$\\text$${neto}} = K_f - K_i = 24.0 $$\\text$${ J} - 6.0 $$\\text$${ J} = 18.0 $$\\text$${ J}$$
-   
-   **Respuesta:** El trabajo neto realizado es **$18.0 $$\\text$${ J}$**.
+### Paso 3: Cálculo del Trabajo Neto
+$$W_{\text{neto}} = K_f - K_i = 24.0 \text{ J} - 6.0 \text{ J} = 18.0 \text{ J}$$
 
+**Respuesta:** El trabajo neto realizado es **$18.0 \text{ J}$**.

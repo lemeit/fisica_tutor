@@ -1,52 +1,38 @@
-(capitulo_3)=
 # Capítulo 3: Vectores y Movimiento en Dos Dimensiones
-
-*Parte: Mecánica*
-*Fecha: 2025-12-12*
 
 ## 1. Guía Teórica y Conceptos Clave
 
-## Conceptos Clave
 
 | Concepto Clave | Descripción Resumida | Ecuaciones Clave |
 | :--- | :--- | :--- |
-| **Vector vs. Escalar** | **Vector:** Requiere magnitud y dirección (e.g., velocidad). **Escalar:** Solo requiere magnitud (e.g., tiempo). | $|
-| **Componentes de un Vector (\\mathbf{A})** | Las proyecciones de un vector sobre los ejes $x$ e $y$. | $\\color{blue}{A_x = A \\cos \\theta}$ 
- $\\color{blue}{A_y = A \\sin \\theta}$ |
-| **Magnitud y Dirección** | El tamaño y el ángulo del vector, dado sus componentes. | $\\color{blue}{A = $$\\sqrt$${A_x^2 + A_y^2}}$ 
- $\\color{blue}{\\theta = \\tan^{-1} \\left($$\\frac{A_y}{A_x}
-ight)}$ |
-| **Movimiento de Proyectiles** | Movimiento en 2D con aceleración constante ($a_x=0$, $a_y=-g$). Las componentes $x$ e $y$ son independientes. | $\\color{blue}{R = $$\\frac$${v_i^2 \\sin (2\\theta_i)}{g}}$ (Alcance) 
- $\\color{blue}{h_{$$\\text$${max}} = $$\\frac$${(v_i \\sin \\theta_i)^2}{2g}}$ (Altura máx.) |
+| **Vector vs. Escalar** | **Vector:** Requiere magnitud y dirección (e.g., velocidad). **Escalar:** Solo requiere magnitud (e.g., tiempo). | |
+| **Componentes de un Vector ($\mathbf{A}$)** | Las proyecciones de un vector sobre los ejes $x$ e $y$. | $\color{blue}A_x = A \cos \theta$ <br> $\color{blue}A_y = A \sin \theta$ |
+| **Magnitud y Dirección** | El tamaño y el ángulo del vector, dado sus componentes. | $\color{blue}A = \sqrt{A_x^2 + A_y^2}$ <br> $\color{blue}\theta = \tan^{-1} \left(\frac{A_y}{A_x}\right)$ |
+| **Movimiento de Proyectiles** | Movimiento en 2D con aceleración constante ($a_x=0$, $a_y=-g$). Las componentes $x$ e $y$ son independientes. | $\color{blue}R = \frac{v_i^2 \sin (2\theta_i)}{g}$ (Alcance) <br> $\color{blue}h_{\text{max}} = \frac{(v_i \sin \theta_i)^2}{2g}$ (Altura máx.) |
 
 #### Pregunta Conceptual Resuelta
 
 * **Pregunta:** En un lanzamiento de proyectil (sin resistencia del aire), ¿la aceleración en el punto más alto es cero?
-* **Análisis:** En el punto más alto, la componente vertical de la velocidad ($v_y$) es cero, pero la componente horizontal ($v_x$) es constante. 
-* **Respuesta:** No. La aceleración **nunca es cero**. La aceleración es constante y es igual a la aceleración de la gravedad $\\mathbf{a} = -g\\mathbf{j}$, dirigida siempre hacia abajo. Solo la velocidad vertical ($v_y$) es cero en ese instante.
+* **Análisis:** En el punto más alto, la componente vertical de la velocidad ($v_y$) es cero, pero la componente horizontal ($v_x$) es constante.
+* **Respuesta:** No. La aceleración **nunca es cero**. La aceleración es constante y es igual a la aceleración de la gravedad $\mathbf{a} = -g\mathbf{j}$, dirigida siempre hacia abajo. Solo la velocidad vertical ($v_y$) es cero en ese instante.
 
 ## 2. Guía de Ejercicios Resueltos
 
-### Problema 1: Problema 1 sin enunciado.
+### Problema 5: Un proyectil es disparado con una rapidez inicial de $40.0 \text{ m/s}$ a un ángulo de $30.0^{\circ}$ por encima de la horizontal. Calcule el alcance horizontal ($R$) del proyectil.
 
-Problema 1 sin enunciado.
+### Paso 1: Identificar las Variables y Ecuación
+* $v_i = 40.0 \text{ m/s}$
+* $\theta_i = 30.0^{\circ}$
+* $g = 9.80 \text{ m/s}^2$
+* Queremos encontrar el alcance $R$.
 
-.. dropdown:: Mostrar Solución
+Usamos la fórmula del alcance (asumiendo que $y_f = y_i$):
+$$R = \frac{v_i^2 \sin (2\theta_i)}{g}$$
 
-   ### Paso 1: Identificar las Variables y Ecuación
-   * $v_i = 40.0 $$\\text$${ m/s}$
-   * $\\theta_i = 30.0^{\circ}$
-   * $g = 9.80 $$\\text$${ m/s}^2$
-   * Queremos encontrar el alcance $R$.
-   
-   Usamos la fórmula del alcance (asumiendo que $y_f = y_i$):
-   $$\\color{blue}{R = $$\\frac$${v_i^2 \\sin (2\\theta_i)}{g}}$$
-   
-   ### Paso 2: Sustitución de Valores
-   $$\\sin (2\\theta_i) = \\sin (2 \ ot  30.0^{\circ}) = \\sin (60.0^{\circ}) \\approx 0.866$$
-   $$R = $$\\frac$${(40.0 $$\\text$${ m/s})^2 \ ot  (0.866)}{9.80 $$\\text$${ m/s}^2}$$
-   $$R = $$\\frac$${(1600 $$\\text$${ m}^2/$$\\text$${s}^2) \ ot  (0.866)}{9.80 $$\\text$${ m/s}^2}$$
-   $$R \\approx 141 $$\\text$${ m}$$
-   
-   **Respuesta:** El alcance horizontal es de **$141 $$\\text$${ m}$**.
+### Paso 2: Sustitución de Valores
+$$\sin (2\theta_i) = \sin (2 \cdot 30.0^{\circ}) = \sin (60.0^{\circ}) \approx 0.866$$
+$$R = \frac{(40.0 \text{ m/s})^2 \cdot (0.866)}{9.80 \text{ m/s}^2}$$
+$$R = \frac{(1600 \text{ m}^2/\text{s}^2) \cdot (0.866)}{9.80 \text{ m/s}^2}$$
+$$R \approx 141 \text{ m}$$
 
+**Respuesta:** El alcance horizontal es de **$141 \text{ m}$**.
