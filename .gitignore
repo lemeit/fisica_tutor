@@ -1,5 +1,6 @@
 # Entornos Virtuales
 .venv/
+venv/
 __pycache__/
 
 # Archivos Sensibles y temporales
@@ -11,3 +12,7 @@ pdfs_fuente/
 
 # Archivos de Build de Documentación (Generados por Sphinx)
 docs/_build/
+
+# Residuos de JSON y utilidades (si los dejamos en local pero no queremos subirlos)
+json_capitulos/
+utils/
