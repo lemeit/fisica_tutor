@@ -8,7 +8,13 @@ Sin embargo, existen otras magnitudes que requieren dar **dirección, sentido, i
 
 Para estos casos decimos que las magnitudes son **vectoriales** y usamos una construcción matemática gráfica para indicarla llamada **vector**. Ejemplos de estas son las fuerzas, velocidades, aceleraciones, etc. Un vector es un segmento dirigido como lo indica la figura.
 
-Aquí debemos dar la escala, es decir, qué longitud del gráfico equivale a la unidad de la magnitud física que se quiere indicar. Por ejemplo, $1\text{ cm} = 10\text{ kg}$ si queremos representar fuerzas. Ustedes ya han estudiado vectores en Álgebra o Análisis, pero podemos repasar algunas propiedades.
+Aquí debemos dar la escala, es decir, qué longitud del gráfico equivale a la unidad de la magnitud física que se quiere indicar. 
+
+
+Por ejemplo, $1\text{ cm} = 10\text{ kg}$ si queremos representar fuerzas. Ustedes ya han estudiado vectores en Álgebra o Análisis, pero podemos repasar algunas propiedades.
+
+...Por ejemplo, $1 \text{cm}$ o $10 \text{kg}$ si queremos representar fuerzas.
+
 
 La recta sobre la que está el vector nos da la **dirección**. $A$ es el origen del vector y $B$ su extremo. El **sentido** (para una dada dirección, hay dos sentidos) lo da la flecha, y el **punto de aplicación** podría ser $A$ o $B$ dependiendo la situación. La **intensidad** es la longitud del vector.
 
