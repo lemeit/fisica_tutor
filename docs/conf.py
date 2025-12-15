@@ -40,3 +40,9 @@ source_suffix = {
     '.myst': 'markdown',
 }
 
+
+# Configuración específica para MyST para garantizar el soporte de LaTeX/MathJax
+myst_enable_extensions = [
+    "amsmath",
+    "dollarmath",  # Habilita la sintaxis $...$ y $$...$$
+]
