@@ -1,3 +1,5 @@
 sphinx
 myst-parser
 furo
+# Si usa el tema de Read the Docs (lo necesita para el workflow de Sphinx)
+sphinx-rtd-theme

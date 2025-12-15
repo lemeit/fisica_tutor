@@ -14,5 +14,5 @@ pdfs_fuente/
 docs/_build/
 
 # Residuos de JSON y utilidades (si los dejamos en local pero no queremos subirlos)
-json_capitulos/
 utils/
+json_capitulos/
