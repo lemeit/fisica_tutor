@@ -1,0 +1,24 @@
+(capitulo_22)=
+# Capítulo 22: Tópicos de Termodinámica (Adicionales)
+
+*Parte: Termodinámica*
+*Fecha: 2025-12-12*
+
+## 1. Guía Teórica y Conceptos Clave
+
+## Conceptos Clave
+
+| Concepto Clave | Descripción Resumida | Ecuaciones Clave |
+| :--- | :--- | :--- |
+| **Energía Libre de Gibbs ($$G$$)** | Utilizada para predecir si un proceso termodinámico que ocurre a temperatura y presión constantes será espontáneo. | $$\color{blue}{\Delta G = \Delta H - T \Delta S}$$ |
+| **Proceso Espontáneo** | Ocurre sin intervención externa. Un proceso es espontáneo si el cambio en la energía libre de Gibbs es negativo ($$\Delta G < 0$$). | |
+| **Equilibrio Termodinámico** | El sistema se encuentra en su estado de mínima energía libre de Gibbs ($$\Delta G = 0$$). | |
+| **Motores de Combustión Interna** | Motores que convierten la energía química del combustible directamente en trabajo dentro de la cámara de combustión (e.g., ciclo Otto). |[Image of the four strokes of an Otto cycle diagram] |
+| **Ciclo de Refrigeración** | El ciclo de Carnot invertido o el ciclo de un refrigerador/bomba de calor estándar. Se requiere trabajo ($$W$$) para transferir calor. | $$\color{blue}{\text{COP} = $$\\frac{|Q_c|}{W} \text{ (Bomba)}}$$ \text{ o } $$\color{blue}{\text{COP} = $$\\frac{|Q_f|}{W} \text{ (Refrig)}}$$ |
+
+#### Pregunta Conceptual Resuelta
+
+* **Pregunta:** ¿Cuál es la principal restricción para la aplicación de la Energía Libre de Gibbs en el mundo real?
+* **Análisis:** La definición de $$\Delta G$$ asume condiciones constantes. 
+* **Respuesta:** La Energía Libre de Gibbs se define bajo las condiciones de **temperatura y presión constantes**. Por lo tanto, es más útil para reacciones químicas y procesos biológicos que ocurren a presión atmosférica constante. Los procesos industriales o atmosféricos donde la presión y/o temperatura varían ampliamente suelen requerir el uso de la Energía Libre de Helmholtz.
+

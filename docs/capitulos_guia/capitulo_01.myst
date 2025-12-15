@@ -1,0 +1,45 @@
+(capitulo_1)=
+# Capítulo 1: Medición y Vectores
+
+*Parte: Mecánica*
+*Fecha: 2025-12-12*
+
+## 1. Guía Teórica y Conceptos Clave
+
+## Conceptos Clave
+
+| $$C$$oncepto Clave | Descripción Resumida | Unidades SI |
+| :--- | :--- | :--- |
+| **Magnitud Física** | Propiedad de un objeto que se puede medir. | |
+| **Unidades SI Fundamentales** | Las siete unidades básicas (Longitud, Masa, Tiempo, Corriente, Temperatura, Cantidad de Sustancia, Intensidad Luminosa). | $$\\text{m, kg, s, A, K, mol, cd}$$ |
+| **Análisis Dimensional** | Método para verificar la validez de una ecuación. Las dimensiones a ambos lados deben ser las mismas (e.g., $L/T$ para velocidad). | $|
+| **Cifras Significativas** | Los dígitos que son confiables en una medición. El resultado de un cálculo debe tener la misma cantidad de cifras significativas que el valor con menos cifras. | |
+
+#### Pregunta Conceptual Resuelta
+
+* **Pregunta:** La ecuación de posición es $x = A t^3 + B t$. Si $x$ está en metros y $t$ en segundos, ¿cuáles son las unidades SI de las constantes $A$ y $B$?
+* **Análisis:** Por el principio de Análisis Dimensional, cada término de la suma debe tener las mismas dimensiones que la posición ($L$).
+* **Respuesta:** 
+    * **Término $A t^3$:** La dimensión de $A$ debe ser $L/T^3$. Por lo tanto, $A$ tiene unidades de $$\\text{m/s}^3$$.
+    * **Término $B t$:** La dimensión de $B$ debe ser $L/T$. Por lo tanto, $B$ tiene unidades de $$\\text{m/s}$$.
+
+## 2. Guía de Ejercicios Resueltos
+
+### Problema 1: Problema 1 sin enunciado.
+
+Problema 1 sin enunciado.
+
+.. dropdown:: Mostrar Solución
+
+   ### Paso 1: Cálculo del Área en $$\\text$${m}^2
+   $$A = L \ \ot  W = (20.0 $$\\text$${ m}) \ \ot  (15.0 $$\\text$${ m}) = 300 $$\\text$${ m}^2$$
+   Ambas medidas tienen tres cifras significativas (el cero final en $20.0$ cuenta). El resultado también debe tener tres cifras significativas, lo que es $3.00 \	imes 10^2 $$\\text$${ m}^2$.
+   
+   ### Paso 2: Conversión a $$\\text$${cm}^2
+   Sabemos que $1 $$\\text$${ m} = 100 $$\\text$${ cm}$, entonces $1 $$\\text$${ m}^2 = (100 $$\\text$${ cm})^2 = 10^4 $$\\text$${ cm}^2$.
+   $$A = (3.00 \	imes 10^2 $$\\text$${ m}^2) \ \ot  \\left($$\\frac{10^4 $$\\text$${ cm}^2}{1 $$\\text$${ m}^2}
+ight)$$
+   $$A = 3.00 \	imes 10^6 $$\\text$${ cm}^2$$
+   
+   **Respuesta:** El área es **$3.00 \	imes 10^6 $$\\text$${ cm}^2$**.
+

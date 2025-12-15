@@ -1,0 +1,31 @@
+(capitulo_14)=
+# Capítulo 14: Mecánica de Fluidos
+
+*Parte: Mecánica*
+*Fecha: 2025-12-12*
+
+## 1. Guía Teórica y Conceptos Clave
+
+## Conceptos Clave
+
+| Concepto Clave | Descripción Resumida | Ecuaciones Clave |
+| :--- | :--- | :--- |
+| **Densidad (\rho)** | Masa por unidad de volumen. | $\\color{blue}{
+ho = $$\\frac$${m}{V}}$ |
+| **Presión ($P$)** | Fuerza por unidad de área, ejercida perpendicularmente a la superficie. | $\\color{blue}{P = $$\\frac$${F}{A}}$ |
+| **Presión Hidrostática** | Presión a una profundidad $h$ en un fluido incompresible y en reposo. | $\\color{blue}{P = P_0 + 
+ho g h}$ |
+| **Principio de Pascal** | Un cambio de presión aplicado a un fluido encerrado se transmite sin disminuir a todos los puntos del fluido y a las paredes del recipiente. | $|
+| **Principio de Arquímedes** | La fuerza de flotación ($B$) sobre un objeto sumergido es igual al peso del fluido desplazado. | $\\color{blue}{B = 
+ho_{$$\\text$${fluido}} g V_{$$\\text$${sumergido}}}$ |
+| **Ecuación de Continuidad** | Para un fluido incompresible en flujo estacionario, el caudal volumétrico es constante. | $\\color{blue}{A_1 v_1 = A_2 v_2 = $$\\text$${constante}}$ |
+| **Ecuación de Bernoulli** | Relaciona la presión, la rapidez de flujo y la altura para un fluido ideal. Es una forma de la conservación de la energía. | $\\color{blue}{P + $$\\frac$${1}{2} 
+ho v^2 + 
+ho g y = $$\\text$${constante}}$ |
+
+#### Pregunta Conceptual Resuelta
+
+* **Pregunta:** ¿Cómo se aplica el Principio de Bernoulli al efecto de sustentación de un ala de avión?
+* **Análisis:** La forma del ala (aerodinámica) obliga al aire a moverse más rápido sobre la superficie superior que sobre la inferior. 
+* **Respuesta:** Según Bernoulli, donde la rapidez del fluido ($v$) es mayor, la presión ($P$) es menor. Dado que la rapidez del aire es **mayor** sobre el ala, la presión es **menor** allí. Esta diferencia de presión entre la superficie inferior (alta presión) y la superior (baja presión) resulta en una fuerza neta hacia arriba: la **sustentación**.
+
