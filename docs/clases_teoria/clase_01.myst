@@ -1,152 +1,152 @@
 # Clase 1: Vectores y Cinemática
 
-## 1. Vectores
+## 1 Vectores
 
-[cite_start]Existen en la naturaleza magnitudes escalares que para indicarlas necesitamos sólo un número y una unidad [cite: 2][cite_start], ejemplos de estas son las longitudes, áreas, temperatura, etc[cite: 2]. [cite_start]Sin embargo existen otras magnitudes que requieren dar dirección, sentido, intensidad y punto de aplicación[cite: 2].
+Existen en la naturaleza magnitudes escalares que para indicarlas necesitamos sólo un número y una unidad, ejemplos de estas son las longitudes, áreas, temperatura, etc. Sin embargo, existen otras magnitudes que requieren dar dirección, sentido, intensidad y punto de aplicación.
 
-[cite_start]Por ejemplo, si estoy empujando un automóvil debo decir en qué dirección, si marcha adelante o atrás, con qué intensidad (si somos uno, dos, tres, etc.) y en qué punto empujo (parte de atrás o adelante)[cite: 3]. [cite_start]Para estos casos decimos que las magnitudes son **vectoriales** y usamos una construcción matemática gráfica para indicarla llamada **vector**[cite: 4]. [cite_start]Ejemplos de estas son las fuerzas, velocidades, aceleraciones, etc.[cite: 5].
+Por ejemplo, si estoy empujando un automóvil debo decir en qué dirección, si marcha adelante o atrás, con qué intensidad (si somos uno, dos, tres, etc) y en qué punto empujo (parte de atrás o adelante). Para estos casos decimos que las magnitudes son **vectoriales** y usamos una construcción matemática gráfica para indicarla llamada **vector**. Ejemplos de estas son las fuerzas, velocidades, aceleraciones, etc. Un vector es un segmento dirigido como lo indica la figura:
 
-Un vector es un segmento dirigido.
-[cite_start]Aquí debemos dar la escala, es decir que longitud del gráfico equivale a la unidad de la magnitud física que se quiere indicar[cite: 15]. [cite_start]Por ejemplo, $1\text{ cm} = 10\text{ kg}$ si queremos representar fuerzas[cite: 16].
 
-[cite_start]La recta sobre la que está el vector nos da **dirección**[cite: 18]. [cite_start]**A** es el origen del vector y **B** su extremo[cite: 18]. [cite_start]El **sentido** para una dada dirección lo da la flecha y el **punto de aplicación** podría ser A o B dependiendo la situación[cite: 19]. [cite_start]La **intensidad** es la longitud del vector[cite: 19].
+
+Aquí debemos dar la escala, es decir qué longitud del gráfico equivale a la unidad de la magnitud física que se quiere indicar. Es decir, por ejemplo $1\text{cm}=10\text{kg}$ si queremos representar fuerzas. Uds. ya han estudiado vectores en Álgebra o Análisis, pero podemos repasar algunas propiedades.
+
+La recta sobre la que está el vector nos da **dirección**. **A** es el origen del vector y **B** su extremo. El **sentido** para una dada dirección (hay dos sentidos) lo da la flecha y el **punto de aplicación** podría ser A o B dependiendo la situación, la **intensidad** la longitud del vector.
 
 ### Componentes y Versores
 
 Un vector en un sistema de coordenadas cartesiano $\text{XYZ}$ se define por sus componentes. El vector $\mathbf{V}$ que va desde el punto $\mathbf{A}:(A_x, A_y, A_z)$ hasta $\mathbf{B}:(B_x, B_y, B_z)$ tiene componentes:
 $$
-\mathbf{V}=(V_x \equiv B_x - A_x, V_y \equiv B_y - A_y, V_z \equiv B_z - A_z)
-[cite_start]$$ [cite: 9, 10, 8]
+\mathbf{V}=(V_x \equiv B_x-A_x, V_y \equiv B_y-A_y, V_z \equiv B_z-A_z)
+$$
+donde las componentes son números reales obtenidos de restar las coordenadas del punto extremo y el origen. Para simplificar podríamos considerar que el punto origen está en el origen de coordenadas.
 
-* [cite_start]**Versores Canónicos o Fundamentales:** Son vectores de módulo 1 dirigidos sobre cada semieje[cite: 47].
-    $$
-    \mathbf{i}=(1,0,0) \quad \mathbf{j}=(0,1,0) \quad \mathbf{k}=(0,0,1)
-    [cite_start]$$ [cite: 14, 12, 11]
+Un vector puede expresarse en sus componentes como un 3-upla $(V_x, V_y, V_z)$ o según lo que analizamos de suma y producto por escalares:
+$$
+\mathbf{V}=(V_x, V_y, V_z)=V_x(1,0,0)+V_y(0,1,0)+V_z(0,0,1)=V_x \mathbf{i}+V_y \mathbf{j}+V_z \mathbf{k}
+$$
+donde hemos usado los **versores** (vectores de módulo 1) **canónicos o fundamentales** dirigidos sobre cada semieje. Podemos operar con vectores expresándolos en los versores canónicos y operando sobre cada componente.
 
-* [cite_start]**Expresión en Componentes y Versores:** Un vector $\mathbf{V}$ puede expresarse como una 3-upla o como la suma de sus componentes multiplicadas por los versores canónicos[cite: 45, 46].
-    $$
-    \mathbf{V}=(V_x, V_y, V_z) = V_x \mathbf{i} + V_y \mathbf{j} + V_z \mathbf{k}
-    [cite_start]$$ [cite: 46]
+#### Módulo (Intensidad)
 
-* [cite_start]**Módulo (Intensidad):** La intensidad o módulo del vector se obtiene aplicando Pitágoras[cite: 37, 38].
-    $$
-    |\mathbf{V}|=\sqrt{V_x^{2}+V_y^{2}+V_z^{2}}
-    [cite_start]$$ [cite: 39]
+Además la intensidad o módulo del vector puede obtenerse aplicando Pitágoras:
+$$
+|\mathbf{V}|=\sqrt{V_x^{2}+V_y^{2}+V_z^{2}}
+$$
 
 ### Operaciones con Vectores
 
-1.  **Suma Gráfica (Regla del Paralelogramo):**
-    [cite_start]Los vectores no pueden sumarse algebraicamente como escalares porque tienen, en general, diferentes direcciones, sentidos e intensidades[cite: 21]. [cite_start]Gráficamente, la resultante de dos vectores convergentes es la diagonal del paralelogramo que forman[cite: 22, 23].
-2.  **Resta Gráfica:**
-    [cite_start]Restar un vector equivale a sumar su opuesto (aquel que tiene igual dirección, intensidad pero sentido contrario)[cite: 30, 31].
-3.  **Suma Analítica:**
-    [cite_start]Se suman las componentes correspondientes[cite: 36].
-    $$
-    \mathbf{V}_1 + \mathbf{V}_2 = (V_{1x}+V_{2x}, V_{1y}+V_{2y}, V_{1z}+V_{2z})
-    [cite_start]$$ [cite: 40]
+Cuando queremos sumar algebraicamente escalares con una misma unidad, se suman los números y se coloca la misma unidad. Sin embargo, los vectores no pueden sumarse así, pues hay que considerar que tienen en general diferentes direcciones, sentidos, intensidades y puntos de aplicación.
 
-4.  **Producto por un Escalar ($\lambda$):**
-    [cite_start]Un vector multiplicado por un número real ($\lambda$) alarga, acorta o invierte el vector dependiendo del valor absoluto de $\lambda$ y de su signo[cite: 41]. [cite_start]Analíticamente, se multiplica cada componente por dicho número[cite: 42].
-    $$
-    \lambda \mathbf{V} = (\lambda V_x, \lambda V_y, \lambda V_z)
-    [cite_start]$$ [cite: 43]
+#### Suma Gráfica (Regla del Paralelogramo)
+Podemos operar gráficamente mediante la **regla del paralelogramo** para vectores convergentes a un punto. La experiencia nos dice que la resultante de dos vectores es la diagonal del paralelogramo que forman.
 
-5.  **Producto Escalar (Punto):**
-    [cite_start]El resultado es un **escalar**[cite: 49]. [cite_start]Este producto resulta en la proyección ortogonal de un vector sobre el otro[cite: 49].
-    $$
-    \mathbf{A} \cdot \mathbf{B} = A_x B_x + A_y B_y + A_z B_z
-    [cite_start]$$ [cite: 51]
+#### Resta Gráfica
+Notemos que restar un vector equivale a sumar el opuesto (aquel que tiene igual dirección, intensidad pero sentido contrario).
 
-6.  **Producto Vectorial (Cruz):**
-    [cite_start]El resultado es un **vector** perpendicular a ambos y cuyo sentido lo da la regla de la mano derecha[cite: 49]. [cite_start]Analíticamente, se calcula como el determinante[cite: 50].
-    $$
-    \mathbf{A} \times \mathbf{B} = \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ A_x & A_y & A_z \\ B_x & B_y & B_z \end{vmatrix}
-    [cite_start]$$ [cite: 51]
+
+
+#### Suma Analítica
+Ahora si consideramos por ejemplo dos vectores $\mathbf{V}_1=(V_{1x},0,0)$, $\mathbf{V}_2=(0,V_{2y},0)$ sobre los ejes X e Y respectivamente y aplicamos la regla del paralelogramo para obtener su suma, notaríamos que el resultado coincide con $\mathbf{V}_{1+2}=(V_{1x},V_{2y},0)$ o sea el obtenido sumando las componentes.
+
+Esto puede generalizarse a tres dimensiones en general:
+$$
+\mathbf{V}_{1}+\mathbf{V}_{2}=(V_{1x}+V_{2x},V_{1y}+V_{2y},V_{1z}+V_{2z})
+$$
+
+#### Producto por un Escalar ($\lambda$)
+El producto de un vector por un número real ($\lambda$) lo alarga o acorta o invierte dependiendo del si el número tiene valor absoluto mayor o menor que 1 y de su signo. Analíticamente se multiplica cada componente por dicho número:
+$$
+\lambda \mathbf{V}=(\lambda V_x, \lambda V_y, \lambda V_z)
+$$
+donde notamos que si calculamos ahora el módulo del vector este queda multiplicado por $|\lambda|$ y que las componentes conservarán su signo o no dependiendo del signo de $\lambda$.
+
+#### Producto Escalar (Punto) y Producto Vectorial (Cruz)
+Veremos que se pueden multiplicar escalarmente dos vectores donde el resultado es un **escalar**, que resulta la proyección ortogonal de un vector sobre el otro, y vectorialmente donde el resultado es un **vector** perpendicular a ambos y cuyo sentido lo da la regla de la mano derecha. Analíticamente pueden expresarse estos productos como:
+$$
+\mathbf{A} \cdot \mathbf{B}=A_x B_x+A_y B_y+A_z B_z
+$$
+$$
+\mathbf{A} \times \mathbf{B}=\begin{vmatrix} \mathbf{i}&\mathbf{j}&\mathbf{k}\\ A_x&A_y&A_z\\ B_x&B_y&B_z \end{vmatrix}
+$$
 
 ---
 
-## 2. Cinemática
+## 2 Cinemática
 
-[cite_start]La **Cinemática** es el estudio de los movimientos sin importar las causas[cite: 57].
+### 2.1 Sistemas de referencia posición, velocidad y aceleración
 
-### 2.1 Sistemas de Referencia: Posición, Velocidad y Aceleración
+Comenzaremos estudiando la **Cinemática** que es el estudio de los movimientos sin importar las causas.
 
-[cite_start]Para estudiar el movimiento de una partícula (cuerpo cuyas dimensiones son despreciables frente al tamaño de su trayectoria) se necesita un sistema de referencia[cite: 55]. [cite_start]Normalmente se utiliza un sistema de ejes coordenados cartesianos ortogonales $\text{XYZ}$ para determinar el **vector posición** $\mathbf{r}(t)$ en el tiempo $t$[cite: 55].
+Para estudiar el movimiento de una partícula (cuerpo cuyas dimensiones son despreciables frente al tamaño de su trayectoria) nos hace falta un sistema de referencia, que normalmente tomamos como un sistema de ejes coordenados cartesianos ortogonales $\text{XYZ}$ para determinar el **vector posición** de coordenadas $\mathbf{r}(t)=(x(t),y(t),z(t))$ en el tiempo $t$, el cual determinamos con un reloj.
 
-* **Vector Posición:**     $$
-    \mathbf{r}(t)=(x(t), y(t), z(t))
-    [cite_start]$$ [cite: 61, 55]
 
-* [cite_start]**Trayectoria:** La sucesión de puntos que ocupa la partícula en el espacio es su trayectoria[cite: 56].
 
-### Velocidad
+La sucesión de puntos que ocupa en el espacio la partícula es su **trayectoria**. Es importante observar que como estamos estudiando física no relativista, el tiempo es una magnitud absoluta y la misma para todo punto del sistema de referencia y para todos los sistemas de referencia diferentes.
 
-[cite_start]Para poder determinar el movimiento a futuro de una partícula se necesita, además de la posición en un instante, su velocidad[cite: 63].
+#### Velocidad
 
-1.  **Velocidad Media ($\mathbf{v}_m$):**
-    [cite_start]Se define como el cambio en el vector posición durante un intervalo de tiempo[cite: 64, 65].
-    $$
-    \mathbf{v}_m(t, t+\Delta t) = \frac{\mathbf{r}(t+\Delta t) - \mathbf{r}(t)}{\Delta t}
-    [cite_start]$$ [cite: 65]
-    [cite_start]Las unidades empleadas normalmente son $\text{m/seg}$, $\text{cm/seg}$, $\text{km/h}$[cite: 66, 68].
+Para poder determinar el movimiento a futuro de una partícula se necesita además de la posición en un instante, su velocidad.
 
-2.  **Velocidad Instantánea ($\mathbf{v}(t)$):**
-    [cite_start]Para saber lo que sucede en un instante, se define como el límite de la velocidad media cuando el intervalo de tiempo tiende a cero[cite: 69, 70].
-    $$
-    \mathbf{v}(t) = \lim_{\Delta t \to 0} \mathbf{v}_m(t, t+\Delta t) = \lim_{\Delta t \to 0} \frac{\mathbf{r}(t+\Delta t) - \mathbf{r}(t)}{\Delta t}
-    [cite_start]$$ [cite: 70]
-    [cite_start]Esto es la derivada del vector posición respecto al tiempo[cite: 71].
-    $$
-    \mathbf{v}(t) = \frac{d\mathbf{r}(t)}{dt} = \left( v_x(t) = \frac{dx(t)}{dt}, v_y(t) = \frac{dy(t)}{dt}, v_z(t) = \frac{dz(t)}{dt} \right)
-    [cite_start]$$ [cite: 72]
+**Velocidad Media ($\mathbf{v}_m$):**
+Comenzamos por definir la velocidad media o promedio como el cambio en el vector posición durante un intervalo de tiempo:
+$$
+\mathbf{v}_m(t,t+\Delta t)=\frac{\mathbf{r}(t+\Delta t)-\mathbf{r}(t)}{\Delta t}
+$$
+donde las unidades normalmente empleadas son $[\mathbf{v}_m]=\frac{\text{m}}{\text{seg}},\frac{\text{cm}}{\text{seg}},\frac{\text{km}}{\text{h}}$. La velocidad media no da información detallada de qué sucede con el móvil en cada instante. Por ejemplo, si recorremos cierto desplazamiento en un dado tiempo, muchas cosas diferentes pueden sucederle al móvil, como detenerse, volver a arrancar o cambiar de sentido, etc.
 
-* [cite_start]**Geométricamente:** El vector velocidad $\mathbf{v}(t)$ es **tangente** en cada instante a la trayectoria del móvil[cite: 74]. [Image illustrating the position vectors r(t) and r(t+Δt), the average velocity Vm(t), and the instantaneous velocity v(t) tangent to the path]
+**Velocidad Instantánea ($\mathbf{v}(t)$):**
+Para saber lo que sucede en cierto instante debemos definir la velocidad instantánea como el límite de la velocidad media cuando el intervalo de tiempo tiende a cero:
+$$
+\mathbf{v}(t)=\lim_{\Delta t\rightarrow0}\mathbf{v}_m(t,t+\Delta t)=\lim_{\Delta t\rightarrow0}\frac{\mathbf{r}(t+\Delta t)-\mathbf{r}(t)}{\Delta t}
+$$
+y como sabemos del análisis matemático dicho límite de cociente incremental es la derivada del vector posición:
+$$
+\mathbf{v}(t)=\frac{d\mathbf{r}(t)}{dt}=\left( v_x(t)=\frac{dx(t)}{dt},v_y(t)=\frac{dy(t)}{dt},v_z(t)=\frac{dz(t)}{dt} \right)
+$$
+Es importante notar que el vector velocidad $\mathbf{v}(t)$ es **tangente en cada instante a la trayectoria del móvil**. Esto puede verse asumiendo un movimiento bidimensional.
 
-* [cite_start]**Rapidez:** Se define como la distancia recorrida (que es el módulo del desplazamiento) dividida por el tiempo en recorrer dicha distancia[cite: 81].
-    $$
-    \text{rapidez}(t) = \lim_{\Delta t \to 0} \frac{|\mathbf{r}(t+\Delta t) - \mathbf{r}(t)|}{\Delta t}
-    [cite_start]$$ [cite: 82]
 
-* [cite_start]**Movimiento Unidimensional:** Para el movimiento unidimensional, $v(t)$ da la pendiente de la curva de posición $x(t)$[cite: 88]. [Image showing the position x(t) vs time t curve, where the tangent slope at time t0 represents the instantaneous velocity v(t0)]
 
-### Aceleración
+**Rapidez:**
+También puede definirse la rapidez como la distancia recorrida (que es el módulo del desplazamiento) dividida el tiempo en recorrer dicha distancia:
+$$
+\text{rapidez}(t)=\lim_{\Delta t\rightarrow0}\frac{|\mathbf{r}(t+\Delta t)-\mathbf{r}(t)|}{\Delta t}
+$$
 
-[cite_start]La velocidad también cambia con el tiempo, lo que define la aceleración instantánea[cite: 94].
+**Movimiento Unidimensional:**
+En el caso del movimiento unidimensional necesitamos sólo una coordenada, que tomamos como $x(t)$ y la componente $v_x(t)\equiv v(t)$. Es importante recordar, que usando la interpretación de la derivada, $v(t)$ nos da la **pendiente de la curva $x(t)$** en un dado tiempo, con lo cual podemos mediante la inclinación determinar el signo de la velocidad.
 
-* **Aceleración Instantánea ($\mathbf{a}(t)$):**
-    [cite_start]Es el cambio del vector velocidad en el tiempo[cite: 94].
-    $$
-    \mathbf{a}(t) = \frac{d\mathbf{v}(t)}{dt} = \left( a_x(t) = \frac{dv_x(t)}{dt} = \frac{d^2x(t)}{dt^2}, a_y(t) = \frac{dv_y(t)}{dt} = \frac{d^2y(t)}{dt^2}, a_z(t) = \frac{dv_z(t)}{dt} = \frac{d^2z(t)}{dt^2} \right)
-    [cite_start]$$ [cite: 95]
 
-* [cite_start]**Movimiento Unidimensional:** En el caso unidimensional, la aceleración está relacionada con la **concavidad** de la curva de posición $x(t)$[cite: 95, 97]. [Image showing the position x(t) vs time t curve with acceleration signs indicated by concavity at two points t0 and t1]
 
-* [cite_start]**Unidades:** Las unidades de aceleración son $[\mathbf{a}(t)]=\frac{\text{m}}{\text{seg}^2}$, $\frac{\text{cm}}{\text{seg}^2}$, $\frac{\text{km}}{\text{h seg}}$[cite: 104].
+#### Aceleración
 
-### 2.2 Movimientos Rectilíneo Uniforme y Uniformemente Acelerado
+Así como cambia la posición con el tiempo también lo hace la velocidad y por lo tanto definiremos la **aceleración instantánea** que es el cambio del vector velocidad en el tiempo:
+$$
+\mathbf{a}(t)=\frac{d\mathbf{v}(t)}{dt}=\left( a_x(t)=\frac{dv_x(t)}{dt}=\frac{d^2x(t)}{dt^2},a_y(t)=\frac{dv_y(t)}{dt}=\frac{d^2y(t)}{dt^2},a_z(t)=\frac{dv_z(t)}{dt}=\frac{d^2z(t)}{dt^2} \right)
+$$
+En el caso de un movimiento unidimensional, la aceleración estará relacionada con la **concavidad de la curva $x(t)$**.
+
+
+
+Notemos que las unidades de aceleración son $[\mathbf{a}(t)]=\frac{\text{m}}{\text{seg}^2},\frac{\text{cm}}{\text{seg}^2},\frac{\text{km}}{\text{h seg}}$.
+
+### 2.2 Movimientos rectilíneo uniforme y uniformemente acelerado
 
 #### Movimiento Rectilíneo Uniforme (MRU)
+Cuando $\mathbf{a}(t)=0$ tenemos que la velocidad es constante y estamos en presencia de un **Movimiento Rectilíneo Uniforme** (MRU).
+Donde hemos aplicado el concepto de integral como operación inversa de la derivación. Finalmente tendremos para el MRU:
+* Aceleración: $\mathbf{a}(t)=0$
+* Velocidad: $\mathbf{v}(t)=\mathbf{v}_0$
+* Posición: $\mathbf{x}(t)=\mathbf{x}_0+\mathbf{v}_0 t$
 
-[cite_start]Ocurre cuando la aceleración es cero ($\mathbf{a}(t)=0$), por lo tanto, la velocidad es constante[cite: 106].
-* [cite_start]Aceleración: $\mathbf{a}(t)=0$ [cite: 113]
-* [cite_start]Velocidad: $\mathbf{v}(t) = \mathbf{v}_0$ (constante) [cite: 113]
-* [cite_start]Posición: $\mathbf{x}(t) = \mathbf{x}_0 + \mathbf{v}_0 t$ [cite: 114]
+Las gráficas correspondientes son:
 
-| Gráfica | Descripción |
-| :--- | :--- |
-| **$x(t)$ vs $t$** | [cite_start]Línea recta con pendiente $v_0$ [cite: 118] |
-| **$v(t)$ vs $t$** | [cite_start]Línea horizontal constante en $v_0$ [cite: 122] |
 
 
 #### Movimiento Rectilíneo Uniformemente Acelerado (MRUA)
+Cuando $\mathbf{a}(t)=\mathbf{a}_0$ constante en el tiempo estamos en presencia de un **Movimiento Rectilíneo Uniformemente Acelerado** (MRUA) y si volvemos a integrar en el tiempo como antes tendremos para el MRUA:
+* Aceleración: $\mathbf{a}(t)=\mathbf{a}_0$
+* Velocidad: $\mathbf{v}(t)=\mathbf{v}_0+\mathbf{a}_0 t$
+* Posición: $\mathbf{x}(t)=\mathbf{x}_0+\mathbf{v}_0 t+\frac{1}{2}\mathbf{a}_0 t^2$
 
-[cite_start]Ocurre cuando la aceleración es constante en el tiempo ($\mathbf{a}(t)=\mathbf{a}_0$)[cite: 125].
-* [cite_start]Aceleración: $\mathbf{a}(t) = \mathbf{a}_0$ [cite: 126]
-* [cite_start]Velocidad: $\mathbf{v}(t) = \mathbf{v}_0 + \mathbf{a}_0 t$ [cite: 126]
-* [cite_start]Posición: $\mathbf{x}(t) = \mathbf{x}_0 + \mathbf{v}_0 t + \frac{1}{2}\mathbf{a}_0 t^2$ [cite: 126]
-
-| Gráfica | Descripción |
-| :--- | :--- |
-| **$a(t)$ vs $t$** | Línea horizontal constante en $a_0$ |
-| **$v(t)$ vs $t$** | [cite_start]Línea recta con pendiente $a_0$ [cite: 131] |
-| **$x(t)$ vs $t$** | [cite_start]Curva parabólica [cite: 128] |
+Las gráficas correspondientes son:
